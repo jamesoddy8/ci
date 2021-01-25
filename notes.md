@@ -1,6 +1,6 @@
-## Continuous Integration Basics ##
+# Continuous Integration Basics #
 
-### Practices of Continuous Integration ###
+## Practices of Continuous Integration ##
 
 Key practices that make up effective CI.
 
