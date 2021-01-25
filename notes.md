@@ -1,10 +1,10 @@
-## Continuous Integration Basics
+## Continuous Integration Basics ##
 
-### Practices of Continuous Integration
+### Practices of Continuous Integration ###
 
 Key practices that make up effective CI.
 
-####**Maintain a Single Source Repository**
+#### **Maintain a Single Source Repository** ####
 
 Software projects involve lots of files that need to be orchestrated together to build a product. Keeping track of all of these is a major effort, particularly when there's multiple people involved. So it's not surprising that over the years software development teams have built tools to manage all this. These tools -called Source Code Management tools, configuration management, version control systems and repositories, or various other names - are an integral part of most development projects. The sad and surprising thing is that they aren't part of *all* projects. It is rare, but I do run into projects that don't use such a system and use some messy combination of local and shared drives.
 
@@ -20,6 +20,6 @@ One of the features of version control systems is that they allow you to create 
 
 In general you should store in source control everything you need to build anything, but nothing that you actually build. Some people do keep the build products in source control, but I consider that to be a smell - an indication of a deeper problem, usually an inability to reliably recreate builds.
 
-####**Automate the Build**
+#### **Automate the Build** ####
 
 Getting the sources turned into a
