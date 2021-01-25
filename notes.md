@@ -22,4 +22,10 @@ In general you should store in source control everything you need to build anyth
 
 ### **Automate the Build** ###
 
-Getting the sources turned into a
+Getting the sources turned into a running system can often be a complicated process involving compilation, moving files around, loading schemas into the databases, and so on. However like most tasks in this part of software development it can be automated - and as a result should be automated. Asking people to type in strange commands or clicking through dialog boxes is a waste of time and a breeding ground for mistakes.
+
+Automated environments for builds are common feature of systems. The Unix world has had make for decades, the Java community developed Ant, the .NET community has had Nant and now has MSbuild. Make sure you can build and launch your system using these scripts using a single command.
+
+A common mistake is not to include everything in the automated build. The build should include getting the database schema out of the repository and firing it up in the execution environment. **Anyone should be able to bring in a virgin machine, check the sources out of the repository, issue a single command, and have a running system on their machine**. 
+
+Build scrips come in various flavours and are
